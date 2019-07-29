@@ -1,2 +1,5 @@
 *.pyc 
 .idea
+app/idmapping/resources/__init__.pyc
+app/idmapping/resources/generateId.pyc
+*.pyc

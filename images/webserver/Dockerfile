@@ -6,7 +6,9 @@ RUN apt-get update
 RUN apt-get -qq update
 RUN apt-get install -my curl wget gnupg
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
-RUN apt-get install -y nodejs npm
+
+RUN apt-get install -y nodejs 
+
 RUN pip install --upgrade pip
 
 COPY . /requirements
